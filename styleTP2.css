@@ -3,12 +3,18 @@ article {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: darkgray;
+    background-color: rgb(63, 63, 68);
 }
 
 strong {
-    color: orange;
+    color: rgb(207, 126, 19);
     font-size: 5rem;
+}
+
+input {
+    display: inline-block;
+    width: 100%;
+    box-sizing: border-box
 }
 
 .left {
@@ -18,17 +24,12 @@ strong {
 }
 
 .right {
-
+    width: 20%;
     margin: 50px;
     display: flex;
     flex-direction: column;
     background-color: black;
     padding: 20px;
-}
-
-#box {
-    background-color: white;
-    margin-bottom: 5px;
 }
 
 #label {
@@ -39,6 +40,10 @@ strong {
 #join {
     text-align: center;
     color: white;
-    background-color: orange;
-    margin-bottom: 5px;
+}
+
+#btn_join {
+    margin-top: 20px;
+    background-color: rgb(207, 126, 19);
+    cursor: pointer;
 }
