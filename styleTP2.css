@@ -8,15 +8,17 @@ article {
 
 strong {
     color: orange;
+    font-size: 5rem;
 }
 
 .left {
     display: flex;
     font-weight: bold;
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
 .right {
+    margin: 50px;
     display: flex;
     flex-direction: column;
     background-color: black;
