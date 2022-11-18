@@ -1,0 +1,44 @@
+article {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: darkgray;
+}
+
+strong {
+    color: orange;
+    font-size: 5rem;
+}
+
+.left {
+    display: flex;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.right {
+
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    padding: 20px;
+}
+
+#box {
+    background-color: white;
+    margin-bottom: 5px;
+}
+
+#label {
+    color: white;
+    margin-bottom: 5px;
+}
+
+#join {
+    text-align: center;
+    color: white;
+    background-color: orange;
+    margin-bottom: 5px;
+}
